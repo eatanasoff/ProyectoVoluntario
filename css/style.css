@@ -352,7 +352,21 @@ a{
 /*Type*/
 
 h1{
-	font-size: 2em;
+	font-size: 1.8em;
+}
+
+h2{
+	font-size: 1.2em;
+	line-height: 25px;
+}
+
+h3{
+	font-size: 1.7em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 27px;
 }
 
 /*buttons*/
@@ -408,7 +422,7 @@ h1{
 }
 
 .header_main {
-	padding: 80px 0 110px;
+	padding: 0 0 70px;
     width: 90%;
     margin: auto;
     min-width: initial;
@@ -433,9 +447,9 @@ h1{
 	padding: 20px 0;
 }
 .main_right_mov img{
-	width: 40%;
+	width: 35%;
 	padding-top: 30px;
-	min-width: 170px;
+	min-width: 75px;
 }
 
 
@@ -449,7 +463,7 @@ h1{
     float: initial;
     width: 80%;
     min-width: 200px;
-    margin: 50px auto;
+    margin: 50px auto 20px;
     max-width: 310px;
 }
 .main_button_right{
@@ -457,7 +471,7 @@ h1{
     float: initial;
     width: 80%;
     min-width: 200px;
-    margin: 50px auto;
+    margin: 40px auto;
     max-width: 310px;
 }
 
@@ -471,7 +485,7 @@ h1{
 }  
 
 .section1_main{
-	padding: 110px 0 110px;
+	padding: 50px 0 110px;
     width: 80%;
     margin: auto;
 }
@@ -490,7 +504,7 @@ h1{
 }
 
 .section1_right img{
-	padding: 20px;
+	width: 100%;
 	min-width: initial;
 }
 
@@ -500,11 +514,11 @@ h1{
 	background-image: url("../img/bg_negocios_mov.png");
   	background-repeat: no-repeat;
   	background-size: cover;
-	padding: 80px 0;
+	padding: 50px 0 0;
 }  
 
 .negocios_1{
-	padding: 50px 0 50px;
+	padding: 0 0 50px;
     width: 80%;
     margin: auto;
 }
@@ -525,7 +539,7 @@ h1{
 .negocios_button{
 	width: 80%;
 	max-width: 310px;
-	padding: 50px 0;
+	padding: 20px 0;
 	margin: auto;
 }
 
@@ -537,11 +551,11 @@ h1{
   	background-repeat: no-repeat;
   	background-size: contain;
     background-position: right;
-	padding: 80px 0;
+	padding: 40px 0 70px;
 }  
 
 .voluntarios_1{
-	padding: 10px 0 110px;
+	padding: 10px 0 60px;
     width: 80%;
     margin: auto;
 }
@@ -562,7 +576,7 @@ h1{
 .voluntarios_button{
 	width: 80%;
 	max-width: 310px;
-	padding: 50px 0;
+	padding: 20px 0;
 	margin: auto;
 }
 
@@ -604,7 +618,7 @@ h1{
 }
 
 .social a{
-	padding: 35px 70px 35px 0;
+	padding: 35px 35px 35px 0;
 } 
 
 
