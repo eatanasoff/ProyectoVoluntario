@@ -30,6 +30,7 @@ h3{
 	text-align: left;
 	font-family: 'Raleway', sans-serif;
 	color:#1B1B1F;
+	overflow-wrap: break-word;
 }
 
 h4{
@@ -170,7 +171,7 @@ li {
 
 li a{
 	color: #FFFFFF;
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 1em;
 	text-align: right;
 	font-family: 'Raleway', sans-serif;
@@ -396,16 +397,27 @@ h1{
 
 /*navbar*/
 nav {
+	width: 100%;
+}
+
+#nav_casos{
 	display: none;
 }
 
+.nav_logo img {
+    padding: 20px 20px;
+}
 
+ul {
+    padding: 10px 20px 20px 0;
+}
 
 /*header*/
 
 .header {
 	width: 100%;
     min-height: 100px;
+    padding-top: 80px;
 }
 
 .header_main {
