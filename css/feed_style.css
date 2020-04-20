@@ -268,6 +268,7 @@ li a{
 	background-image: url("../img/bg_feed.svg");
   	background-repeat: no-repeat;
   	background-size: cover;
+  	padding-bottom: 150px;
 }  
 
 .caso_feed{
@@ -320,7 +321,11 @@ li a{
     color: #515259;
 }
 
-
+.texto-libre{
+	width: 50%;
+    margin: 40px auto;
+    min-width: 710px; 
+}
 
 
 
@@ -338,7 +343,7 @@ li a{
 }
 
 .footer_2 {
-	padding: 0 0 150px;
+	padding-top: 50px;
     width: 80%;
     margin: auto;
 }
@@ -386,6 +391,24 @@ li a{
 	padding-right: 70px;
 }
 
+.webmap{
+	width: 80%;
+    margin: auto;
+}
+
+.webmap ul{
+	width: 80%;
+	min-width: 600px;
+	float: left;
+}
+
+.webmap ul li{
+	padding-right: 40px;
+}
+
+.webmap ul li a p{
+	color: #0BCDB5;
+}
 
 
 /*********** transición *************/
@@ -433,7 +456,7 @@ nav {
     min-height: 100px;
     background-image: url("../img/background_header_mov.svg");
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: bottom;
     padding-top: 40px;
 }
 
@@ -498,9 +521,15 @@ nav {
 	background-image: url("../img/background_feed_mov.svg");
   	background-repeat: repeat;
   	background-size: cover;
+  	padding-bottom: 100px;
 }  
 
 .caso_feed {
+	width: 80%;
+	min-width: initial;
+}
+
+.texto-libre {
 	width: 80%;
 	min-width: initial;
 }
@@ -526,13 +555,17 @@ nav {
 /*footer*/
 .footer {
 	width: 100%;
-	padding: 80px 0;
+	padding: 20px 0 80px;
 }  
 
 .footer_1{
 	padding: 10px 0 50px;
     width: 80%;
     margin: auto;
+}
+
+.footer_2 {
+	padding-top: 0;
 }
 
 .footer_left{
@@ -570,3 +603,27 @@ nav {
 
 }
 
+.webmap{
+	width: 80%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.webmap ul{
+	width: 100%;
+	min-width: initial;
+	float: initial;
+	display: block;
+    position: initial;
+    padding: initial;
+}
+
+.webmap ul li{
+	padding-right: 40px;
+	max-height: 40px;
+}
+
+
+
+
+}
