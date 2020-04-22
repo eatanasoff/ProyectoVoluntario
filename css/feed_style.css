@@ -268,14 +268,13 @@ li a{
 	background-image: url("../img/bg_feed.svg");
   	background-repeat: no-repeat;
   	background-size: cover;
-  	padding-bottom: 150px;
 }  
 
 .caso_feed{
 	width: 50%;
 	border-radius: 5px;
 	box-shadow: 10px 10px 20px #C3C5D2;
-    margin: 40px auto;
+    margin: 40px auto 120px;
     border: solid #F0F2FD 1px;
     background-color: #ffffff;
     min-width: 710px; 
@@ -521,7 +520,6 @@ nav {
 	background-image: url("../img/background_feed_mov.svg");
   	background-repeat: repeat;
   	background-size: cover;
-  	padding-bottom: 100px;
 }  
 
 .caso_feed {
