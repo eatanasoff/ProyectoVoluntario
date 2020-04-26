@@ -34,6 +34,22 @@
 <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
+<script>
+	//JavaScript function that enables or disables a submit button depending
+//on whether a checkbox has been ticked or not.
+function terms_changed(termsCheckBox){
+    //If the checkbox has been checked
+    if(termsCheckBox.checked){
+        //Set the disabled property to FALSE and enable the button.
+        document.getElementById("submit_button").disabled = false;
+    } else{
+        //Otherwise, disable the submit button.
+        document.getElementById("submit_button").disabled = true;
+    }
+}
+</script>
+
+
 </head>
 <body >
 
@@ -116,21 +132,24 @@
 
 
 			<div class="feed_calltoaction" style="border-top: solid 1px #F0F2FD;width: 100%; float: initial;margin: auto;">
-				<p>Si quieres ayudar en este caso, contacta a este negocio enviándole un email.</p>
+				<p>Si quieres ayudar en este caso, completa el email y acepta los términos y condiciones.</p>
+
+				<form action="/action_page.php">
+  					<label for="email-voluntario">Dinos tu email:</label>
+
+					<input type="email" id="email-voluntario" name="email" value="Escribe tu email aquí" onfocus="this.value=''"><br>
+
+  					 <input type="checkbox" id="terms_and_conditions" value="1" onclick="terms_changed(this)" />
+
+  					<label for="terms_and_conditions">Acepto los <a href="docs/termsandconditions_conecta-digital.pdf">términos y condiciones</a> y la <a href="docs/personalinfo-conecta-digital.pdf">política de privacidad</a>.</label><br><br><br>
+
+  				
+  					<button class="button_third" type="submit" id="submit_button" disabled>HACER ESTE CASO</button>
+				</form>
     				
 			</div>
-			<div class="feed_button" style="width: 100%; float: initial;margin: auto;">
-				<!-- volver a agregar el correo -->
-    			<a href="mailto:elcorreo@gmail.com"> 
-    				<!-- Este botón que haga la magia necesaria  para saber que alguien tomó el caso :) -->
-    				<div class="button_third">
-    					<span>QUIERO HACER ESTE CASO</span>
-    				</div>
-    			</a>
-			</div>
 
-			<p style="font-size: 0.9em;	border-top: solid 1px #F0F2FD;
-"><br>Personas interesadas en resolver este caso: <!-- agregar recuento de veces que se hizo click al CTA "QUIERO HACER ESTE CASO" --></p>	
+			<p style="font-size: 0.9em;	border-top: solid 1px #F0F2FD;"><br>Personas interesadas en resolver este caso: <!-- agregar recuento de veces que se hizo click al CTA "QUIERO HACER ESTE CASO" --></p>	
 
 	</div>
 
