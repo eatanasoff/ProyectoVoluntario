@@ -269,7 +269,7 @@ li a{
 	background-image: url("../img/bg_feed.svg");
   	background-repeat: no-repeat;
   	background-size: cover;
-  	padding-bottom: 40px; 
+  	padding: 40px 0; 
 }  
 
 .caso_feed{
