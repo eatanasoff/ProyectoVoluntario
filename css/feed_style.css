@@ -424,7 +424,7 @@ li a{
 }
 
 .webmap ul{
-	width: 80%;
+	width: 100%;
 	min-width: 600px;
 	float: left;
 }
