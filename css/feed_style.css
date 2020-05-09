@@ -12,6 +12,7 @@ h1{
 	font-size: 3em;
 	text-align: left;
 	color: #1B1B1F;
+	word-wrap: break-word
 }
 
 h2{
@@ -30,6 +31,7 @@ h3{
 	text-align: left;
 	font-family: 'Raleway', sans-serif;
 	color:#1B1B1F;
+	word-wrap: break-word
 }
 
 h4{
@@ -39,6 +41,7 @@ h4{
 	font-family: 'Raleway', sans-serif;
 	color:#C3C5D2;
 	line-height: 45px;
+	word-wrap: break-word
 }
 
 h5{
@@ -70,7 +73,7 @@ p{
 	font-family: 'Raleway', sans-serif;
 	line-height: 30px;
     letter-spacing: 1px;
-    color: #515259;
+    color: #1B1B1F;
 }
 
 a{
@@ -81,10 +84,21 @@ label a, p a{
 	color: #0BCDB5;
 }
 
+.filtro_feed p {
+	font-weight: 600;
+	font-size: 1em;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px;
+    letter-spacing: 1px;
+    color: #515259;
+    margin-bottom: 0;
+}
+
 /*buttons*/
 
 .button_principal {
-	background-color: #0BCDB5;
+	background-color: #1CD6BF;
 	padding: 20px 15px;
 	border-radius: 5px;
 	box-shadow: 10px 10px 20px #c3c5d2;
@@ -123,18 +137,38 @@ label a, p a{
 	border: 0; 
 }
 
+.button_fourth {
+	background-color: #808EDE;
+	padding: 12px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 20px #F0F2FD;
+	font-weight: 600;
+	font-size: 0.8em;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+	min-width: 100px;
+	border: 0; 
+}
+
 /*buttons hover - a*/
 
 .button_principal:hover {
-	background-color: #06B59B;
+	background-color: #0BCDB5;
 }
 
 .button_secondary:hover {
-	background-color: #FBCA51;
+	background-color: #F6C73E;
 }
 
 .button_third:hover {
-	background-color: #06B59B;
+	background-color: #F6C73E;
+	color: #FFFFFF;
+	border: none;
+}
+
+.button_fourth:hover {
+	background-color: #6B7BDA;
 	color: #FFFFFF;
 	border: none;
 }
@@ -154,6 +188,14 @@ label a, p a{
 .button_third a:hover {
 	color: #FFFFFF;
 }
+
+/*button_Disabled*/
+
+.button_third:disabled, .button_third[disabled] {
+	border: solid 1px #C3C5D2;
+	background-color: #FFFFFF;
+	color: #C3C5D2;
+ } 
 
 
 /*nav_bar*/
@@ -216,7 +258,7 @@ li a{
 }
 
 .header_main {
-	padding: 50px 0 110px;
+	padding: 30px 0 30px;
     width: 80%;
     min-width: 780px;
     margin: auto;
@@ -226,6 +268,8 @@ li a{
 	width: 60%;
     float: left;
 }
+
+
 
 .main_right{
 	width: 30%;
@@ -262,6 +306,40 @@ li a{
 }
 
 
+.filtro_feed{
+	float: left;
+	display: none;	
+}
+
+.filtro_feed ul{
+	padding: 0;	
+}
+
+
+
+.filtro_feed ul li{
+	border-bottom: solid #808EDE 3px;
+    padding: 0 20px;
+    margin: 0 15px 0 0;
+}
+
+.filtro_feed li a{
+	background-color: white;
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+	line-height: initial;
+    letter-spacing: 1px;
+    padding: initial;
+    border-radius: 5px;
+    margin-left: initial; 
+
+}
+
+.filtro_feed_mov{
+	display: none;
+}
+
+
 
 /*feed*/
 .feed {
@@ -269,10 +347,42 @@ li a{
 	background-image: url("../img/bg_feed.svg");
   	background-repeat: no-repeat;
   	background-size: cover;
-  	padding: 40px 0; 
+	padding: 0 0 80px;
 }  
 
 .caso_feed{
+	width: 30%;
+	border-radius: 5px;
+	box-shadow: 10px 10px 20px #C3C5D2;
+    margin: 10px 0 40px 25px;
+    border: solid #F0F2FD 1px;
+    background-color: #ffffff;
+    float: left;
+    min-height: 270px;
+}
+
+.ser_voluntario{
+	width: 30%;
+	border-radius: 5px;
+    margin: 10px 0 40px 25px;
+    background-color: #ffffff;
+    float: left;
+    min-height: 270px;
+}
+
+.ser_voluntario .feed_button {
+	margin: 50px auto 0;
+}
+
+.ser_voluntario .button_third {
+	background-color: #808EDE;
+}
+
+.ser_voluntario .button_third:hover {
+	background-color: #6B7BDA;
+}
+
+.caso_detalle{
 	width: 50%;
 	border-radius: 5px;
 	box-shadow: 10px 10px 20px #C3C5D2;
@@ -283,7 +393,7 @@ li a{
 }
 
 .info_formulario{
-	padding: 25px;
+	padding: 15px;
 }
 
 .info_formulario p {
@@ -297,21 +407,19 @@ li a{
 }
 
 
+
 .feed_button{
-	width: 35%;
-	max-width: 310px;
-	padding: 15px 0;
-	float: right;
+	max-width: 160px;
+	padding: 15px 0 0;
+	margin: 0 auto;
 }
 
 .feed_calltoaction {
 	width: 60%;
-	padding: 15px 0;
+	padding: 15px 0 0;
 	float: left;
 
 }
-
-
 
 
 .terms_and_conditions{
@@ -353,6 +461,19 @@ li a{
 	width: 90%;
     margin: auto;
     max-width: 250px;
+}
+
+
+#descripcion_actividad {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3; 
+	-webkit-box-orient: vertical;
+}
+
+#descripcion_necesidad{
+	font-weight: 600;
 }
 
 
@@ -475,9 +596,20 @@ h3{
 
 /*navbar*/
 nav {
+    width: 100%;
+}
+.nav_left{
+	float: left;
+    width: 10%;
+}
+
+.nav_right{
 	display: none;
 }
 
+.nav_logo img {
+    padding: 20px 20px;
+}
 
 
 /*header*/
@@ -485,14 +617,14 @@ nav {
 .header {
 	width: 100%;
     min-height: 100px;
-    background-image: url("../img/background_header_mov.svg");
+    background-image: url("../img/bg_header_mov.svg");
     background-repeat: no-repeat;
     background-position: bottom;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 .header_main {
-	padding: 0 0 70px;
+	padding: 0 0 10px;
     width: 90%;
     margin: auto;
     min-width: initial;
@@ -546,17 +678,70 @@ nav {
 }
 
 
+.filtro_feed_mov .button_fourth{
+	max-width: 110px;
+}
+
+.filtro_feed_mov_modal{
+	border-radius: 5px;
+	padding: 15px;
+	background-color: #ffffff;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.filtro_feed_mov_modal ul{
+	display: block;
+	float: initial;
+	padding: initial;
+}
+
+.filtro_feed_mov_modal ul li{
+	padding: initial;
+}
+
+.filtro_feed_mov_modal ul li a{
+	padding: initial;
+	margin: 0;
+    line-height: initial;
+}
+
+.filtro_feed_mov_modal #filtro_feed{
+	background-color: #808EDE;
+}
+
+.filtro_feed_mov_modal .button_fourth{
+	margin: auto;
+}
+
+
+
+
 /*feed*/
 .feed {
 	width: 100%;
-	background-image: url("../img/background_feed_mov.svg");
+	background-image: url("../img/bg_feed_mov.svg");
   	background-repeat: repeat;
   	background-size: cover;
   	padding-bottom: 100px;
 }  
 
 .caso_feed {
-	width: 80%;
+	width: 95%;
+	float: initial;
+	margin: 30px auto;
+	min-height: initial;
+}
+
+.ser_voluntario {
+	width: 95%;
+	float: initial;
+	margin: 30px auto;
+	min-height: initial;
+}
+
+.caso_detalle {
+	width: 95%;
 	min-width: initial;
 }
 
@@ -564,7 +749,6 @@ nav {
 	width: 80%;
 	min-width: initial;
 }
-
 
 .feed_calltoaction{
 	width: 100%;
@@ -578,7 +762,6 @@ nav {
 }
 
 .feed_button {
-	float: initial;
 	margin: auto;
 	padding-top: 0;
 	width: 100%;

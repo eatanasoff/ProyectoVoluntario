@@ -34,7 +34,7 @@
 <meta name="theme-color" content="#ffffff">
 
 </head>
-<body >
+<body style="background-color: #F0F2FD;">
 
 <!-- nav_bar -->
 
@@ -54,15 +54,65 @@
 
 <!-- main -->
 <div class="header">
-    <div class="header_main">
+    <div class="header_main" style="width: 100%;margin: auto 30px;">
 
 
     	<div class="main_left">
     		<h3>Elige un caso para comenzar</h3>
-    		<p>Estos son los casos abiertos que esperan por ti para ser resueltos.</p>
     	</div>
 
+<!-- filtros en web -->
+
+    <div  class="filtro_feed" >
+
+    	 <p>Si quieres, puedes filtrar según lo que nos han dicho que necesitan:</p>
+  		<ul>
+   			<li><a href=""><p>Todo</p></a></li>
+   			<li><a href=""><p>Web</p></a></li>
+   			<li><a href=""><p>Venta online</p></a></li>
+   			<li><a href=""><p>Logística</p></a></li>
+   			<li><a href=""><p>Marketing</p></a></li>
+   			<li><a href=""><p>Diseño</p></a></li>
+			<li><a href=""><p>Negocio</p></a></li>
+			<li><a href=""><p>Otro</p></a></li>
+
+   		</ul>
+  	</div>
+
+<!-- filtros mobile -->
+
+    <div  class="filtro_feed_mov">
+    	<div class="button_fourth">
+    		<span>VER FILTROS</span>
+    	</div>
+
+    	<div class="filtro_feed_mov_modal">
+    		<p>Filtra por los casos según lo que han indicado que necesitan:</p>
+
+  			<ul>
+   				<li><a href=""><p>Todo</p></a></li>
+   				<li><a href=""><p>Web</p></a></li>
+   				<li><a href=""><p>Venta online</p></a></li>
+   				<li><a href=""><p>Logística</p></a></li>
+   				<li><a href=""><p>Marketing</p></a></li>
+   				<li><a href=""><p>Diseño</p></a></li>
+				<li><a href=""><p>Negocio</p></a></li>
+				<li><a href=""><p>Otro</p></a></li>
+
+   			</ul>
+
+   			<div class="button_fourth">
+    			<span>ACEPTAR</span>
+    		</div>
+   		</div>
+  	</div>
+
+
+
+
     <div style="clear:both;"></div>
+
+
 
 
 	</div>
@@ -75,26 +125,12 @@
 	<div class="caso_feed">
 		<div class="info_formulario">
 			<h5>
-
-				<!-- Pregunta 1 - ¿Cuál es tu nombre? - texto Libre -->
-				<span id="nombre_persona">Juan Rodriguez</span> -  
 				<!-- Pregunta 2 - ¿Y el nombre de tu negocio? - texto Libre -->
 				<span id="nombre_negocio">Cervecería Barcelo</span>
 			</h5>
-			<h6>
-				<!-- Pregunta 3 - ¿De qué es el negocio? - SingleChoice:
-				· Restauración (bares, restaurantes, cafeterías, etc.) 
-				· Salud (cuidado personal y deporte, fisioterapia, nutrición, dentista, etc.)
-				· Comercio minorista (venta de alimentos, ropa, electrónica, etc.)
-				· Educación
-				· Otro-->
-				<span id="sector">Restauración (bares, restaurantes, cafeterías, etc.)</span>, 
-				<!-- Pregunta 4 - ¿Dónde está tu negocio? - SingleChoice (listado de provincias)-->
-				<span id="provincia">Barcelona</span>
-			</h6>
-			<p >
+			<p id="descripcion_actividad">
 				<!-- Pregunta 5 - ¿Puedes hacer una breve descripción del funcionamiento y la situación de tu negocio? - Texto libre-->
-				<span id="descripcion_actividad">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</span>
+				<span >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</span>
 			</p>
 			<p>
 				<!-- Pregunta 7 - ¿Crees que alguna de estas iniciativas podría ayudarte a asegurar la continuidad de tu negocio? - SingleChoice:
@@ -105,13 +141,8 @@
 					· Entender mejor mis números para adaptarme a mis clientes
 					· Mejorar mi imagen de marca
 					· No sé qué podría hacer para asegurar la viabilidad-->
-				<span id="descripcion_necesidad">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+				<span id="descripcion_necesidad">Quiero vender online.</span>
 			</p>
-			<div class="feed_calltoaction">
-				<p> Si crees que puedes ayudar a resolver el caso, ¡no lo dudes!
-			</p>
-    				
-			</div>
 			<div class="feed_button">
     			<a href="caso_id.html">
     				<div class="button_third">
@@ -119,17 +150,140 @@
     				</div>
     			</a>	
 			</div>
-				<div style="clear:both;"></div>
-
-
 	</div>
-
-   
-</div></div>
-
-
-
+</div>
 <!-- Fin Caso -->
+
+<!-- Inicio Caso --> 
+	<div class="caso_feed">
+		<div class="info_formulario">
+			<h5>
+				<!-- Pregunta 2 - ¿Y el nombre de tu negocio? - texto Libre -->
+				<span id="nombre_negocio">Cervecería Barcelo</span>
+			</h5>
+			<p id="descripcion_actividad">
+				<!-- Pregunta 5 - ¿Puedes hacer una breve descripción del funcionamiento y la situación de tu negocio? - Texto libre-->
+				<span >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</span>
+			</p>
+			<p>
+				<!-- Pregunta 7 - ¿Crees que alguna de estas iniciativas podría ayudarte a asegurar la continuidad de tu negocio? - SingleChoice:
+					· Crear una web
+					· Añadir la posibilidad de vender online
+					· Hacer marketing online
+					· Hacer reparto a domicilio
+					· Entender mejor mis números para adaptarme a mis clientes
+					· Mejorar mi imagen de marca
+					· No sé qué podría hacer para asegurar la viabilidad-->
+				<span id="descripcion_necesidad">Quiero vender online.</span>
+			</p>
+			<div class="feed_button">
+    			<a href="caso_id.html">
+    				<div class="button_third">
+    					<span>VER DETALLE</span>
+    				</div>
+    			</a>	
+			</div>
+	</div>
+</div>
+<!-- Fin Caso -->
+
+<!-- Inicio Caso --> 
+	<div class="caso_feed">
+		<div class="info_formulario">
+			<h5>
+				<!-- Pregunta 2 - ¿Y el nombre de tu negocio? - texto Libre -->
+				<span id="nombre_negocio">Cervecería Barcelo</span>
+			</h5>
+			<p id="descripcion_actividad">
+				<!-- Pregunta 5 - ¿Puedes hacer una breve descripción del funcionamiento y la situación de tu negocio? - Texto libre-->
+				<span >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</span>
+			</p>
+			<p>
+				<!-- Pregunta 7 - ¿Crees que alguna de estas iniciativas podría ayudarte a asegurar la continuidad de tu negocio? - SingleChoice:
+					· Crear una web
+					· Añadir la posibilidad de vender online
+					· Hacer marketing online
+					· Hacer reparto a domicilio
+					· Entender mejor mis números para adaptarme a mis clientes
+					· Mejorar mi imagen de marca
+					· No sé qué podría hacer para asegurar la viabilidad-->
+				<span id="descripcion_necesidad">Quiero vender online.</span>
+			</p>
+			<div class="feed_button">
+    			<a href="caso_id.html">
+    				<div class="button_third">
+    					<span>VER DETALLE</span>
+    				</div>
+    			</a>	
+			</div>
+	</div>
+</div>
+<!-- Fin Caso -->
+
+<!-- Inicio Caso --> 
+	<div class="ser_voluntario">
+		<div class="info_formulario">
+			<h5>
+				<!-- Pregunta 2 - ¿Y el nombre de tu negocio? - texto Libre -->
+				<span id="nombre_negocio">¡Apúntate para ayudar!</span>
+			</h5>
+			<p id="descripcion_actividad">
+				<!-- Pregunta 5 - ¿Puedes hacer una breve descripción del funcionamiento y la situación de tu negocio? - Texto libre-->
+				<span >Si no encuentras un caso que encaje con tu perfil o si te interesa recibir las novedades de los que se van creando, ¡Apuntate!</span>
+			</p>
+			<div class="feed_button">
+    			<a href="caso_id.html">
+    				<div class="button_third">
+    					<span>QUIERO AYUDAR</span>
+    				</div>
+    			</a>	
+			</div>
+	</div>
+</div>
+<!-- Fin Caso -->
+
+<!-- Inicio Caso --> 
+	<div class="caso_feed">
+		<div class="info_formulario">
+			<h5>
+				<!-- Pregunta 2 - ¿Y el nombre de tu negocio? - texto Libre -->
+				<span id="nombre_negocio">Cervecería Barcelo</span>
+			</h5>
+			<p id="descripcion_actividad">
+				<!-- Pregunta 5 - ¿Puedes hacer una breve descripción del funcionamiento y la situación de tu negocio? - Texto libre-->
+				<span >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</span>
+			</p>
+			<p>
+				<!-- Pregunta 7 - ¿Crees que alguna de estas iniciativas podría ayudarte a asegurar la continuidad de tu negocio? - SingleChoice:
+					· Crear una web
+					· Añadir la posibilidad de vender online
+					· Hacer marketing online
+					· Hacer reparto a domicilio
+					· Entender mejor mis números para adaptarme a mis clientes
+					· Mejorar mi imagen de marca
+					· No sé qué podría hacer para asegurar la viabilidad-->
+				<span id="descripcion_necesidad">Quiero vender online.</span>
+			</p>
+			<div class="feed_button">
+    			<a href="caso_id.html">
+    				<div class="button_third">
+    					<span>VER DETALLE</span>
+    				</div>
+    			</a>	
+			</div>
+	</div>
+</div>
+<!-- Fin Caso -->
+
+
+
+
+
+
+
+    <div style="clear:both;"></div>
+
+</div>
 
 
 
