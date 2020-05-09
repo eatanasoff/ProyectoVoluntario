@@ -221,6 +221,10 @@ nav {
 	width: 85%;
 }
 
+.nav_right ul li a{
+	padding: 10px;
+}
+
 ul {
 	display: flex;
     position: relative;
@@ -240,9 +244,7 @@ li a{
 	font-family: 'Raleway', sans-serif;
 	line-height: 30px;
     letter-spacing: 1px;
-    padding: 10px;
-    border-radius: 5px;
-    margin-left: 40px; 
+    border-radius: 5px; 
 }
 
 /*header*/
