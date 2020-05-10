@@ -394,6 +394,15 @@ li a{
     min-width: 710px; 
 }
 
+.caso_detalle #descripcion_actividad{
+	overflow: initial;
+    text-overflow: initial;
+    display: initial;
+    -webkit-line-clamp: initial;
+    -webkit-box-orient: initial;
+}
+
+
 .info_formulario{
 	padding: 15px;
 }
@@ -463,6 +472,14 @@ li a{
 	width: 90%;
     margin: auto;
     max-width: 250px;
+}
+
+#nombre_negocio {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1; 
+	-webkit-box-orient: vertical;
 }
 
 
