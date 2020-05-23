@@ -38,8 +38,9 @@ h4{
 	font-size: 2.4em;
 	text-align: left;
 	font-family: 'Raleway', sans-serif;
-	color:#C3C5D2;
+	color:#808EDE;
 	line-height: 45px;
+	opacity: 0.4;
 }
 
 p{
@@ -55,6 +56,14 @@ p{
 
 a{
 	text-decoration: none;
+}
+
+p a {
+	color: #1CD6BF;
+}
+
+p a:hover {
+	color: #FBCA51;
 }
 
 
@@ -87,7 +96,7 @@ a{
 }
 
 .button_third {
-	background-color: #FFD24F;
+	background-color: #808EDE;
 	padding: 20px 15px;
 	border-radius: 5px;
 	box-shadow: 10px 10px 20px #c3c5d2;
@@ -110,7 +119,7 @@ a{
 }
 
 .button_third:hover {
-	background-color: #06B59B;
+	background-color: #6B7BDA;
 	color: #FFFFFF;
 	border: none;
 }
@@ -190,7 +199,7 @@ li a{
 .header {
 	width: 100%;
     min-height: 650px;
-    background: linear-gradient(180deg, rgba(28,214,191,0.1) 0%, rgba(255,255,255,1) 40%);
+    background-color: #F0F2FD;
 }
 
 .header_main {
@@ -278,7 +287,6 @@ li a{
 	background-image: url("../img/background_negocios.svg");
   	background-repeat: no-repeat;
   	background-size: cover;
-  	padding-bottom: 190px;
 }  
 
 .negocios_1 {
@@ -304,6 +312,12 @@ li a{
 	
 }
 
+.negocios_left img{
+	width: 100%;
+	padding-top: 60px;
+	
+}
+
 .negocios_button{
 	width: 60%;
 }
@@ -318,6 +332,7 @@ li a{
   	background-color: #1B1B1F;
   	color: #FFFFFF;
   	padding-bottom: 150px;
+  	margin-top: 250px;
 }  
 
 .footer_1 {
@@ -355,13 +370,7 @@ li a{
     color: #FFFFFF;
 }
 
-.footer p a {
-	color: #1CD6BF;
-}
 
-.footer p a:hover {
-	color: #FBCA51;
-}
 
 .social a {
 	padding-right: 70px;
@@ -441,6 +450,7 @@ ul {
 	width: 100%;
     min-height: 100px;
     padding-top: 40px;
+    background-color: #F0F2FD;
 }
 
 .header_main {
@@ -536,8 +546,6 @@ ul {
 	background-image: url("../img/background_negocios_mov.svg");
   	background-repeat: no-repeat;
   	background-size: cover;
-  	padding-bottom: 190px;
-
 }  
 
 .negocios_1{
@@ -550,6 +558,10 @@ ul {
 	width: 100%;
     float: initial;
     display: block;
+}
+
+.negocios_left img{
+	display: none;
 }
 
 .negocios_right{
@@ -608,6 +620,7 @@ ul {
 .footer {
 	width: 100%;
 	padding: 20px 0 80px;
+	margin-top: 100px;
 }  
 
 .footer_1{
