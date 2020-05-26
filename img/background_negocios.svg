@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1024px" height="1831px" viewBox="0 0 1024 1831" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
-    <title>background_negocios</title>
-    <desc>Created with Sketch.</desc>
     <g id="background_negocios" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-11" transform="translate(77.000000, 1431.000000)"></g>
         <g id="Background" transform="translate(144.000000, 125.000000)">
@@ -53,6 +50,6 @@
                 <polygon id="Rectangle" fill="#F06766" transform="translate(15.382946, 9.675309) rotate(-45.000000) translate(-15.382946, -9.675309) " points="8.55586197 11.0918038 16.5655539 13.744851 22.210029 8.17608429 14.1809599 5.60576645"></polygon>
             </g>
         </g>
-        <rect id="Rectangle-Copy" fill="#F0F2FD" transform="translate(0.500000, 927.500000) rotate(-45.000000) translate(-0.500000, -927.500000) " x="-86" y="841" width="173" height="173" rx="54"></rect>
+ 
     </g>
 </svg>

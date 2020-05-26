@@ -14,7 +14,7 @@
             <g id="orange_outline" opacity="0.3" transform="translate(187.000000, 150.000000)">
                 <g id="Group-14">
                     <g id="Combined-Shape">
-                        <use fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: multiply;" xlink:href="#path-1"></use>
+                        <use style="mix-blend-mode: multiply;" xlink:href="#path-1"></use>
                         <use stroke="#FB9C24" stroke-width="1" xlink:href="#path-1"></use>
                     </g>
                     <polyline id="Line-8" stroke="#FB9C24" stroke-linecap="square" points="95 196 95 97.8695652 190 48"></polyline>
@@ -24,7 +24,7 @@
             <line x1="336.5" y1="270.5" x2="725.5" y2="474.5" id="Line-13" stroke="#C3C5D2" opacity="0.7" stroke-linecap="square"></line>
             <g id="blue_outline" opacity="0.3" transform="translate(702.000000, 437.000000)">
                 <g id="Combined-Shape-Copy-2">
-                    <use fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: multiply;" xlink:href="#path-2"></use>
+                    <use style="mix-blend-mode: multiply;" xlink:href="#path-2"></use>
                     <use stroke="#3B65E6" stroke-width="1" xlink:href="#path-2"></use>
                 </g>
                 <polyline id="Line-8-Copy-2" stroke="#3B65E6" stroke-width="1" stroke-linecap="square" points="95 196 95 97.8695652 190 48"></polyline>
@@ -39,7 +39,7 @@
         <g id="orange_outline" opacity="0.3" transform="translate(159.000000, 1333.000000)">
             <g id="Group-14">
                 <g id="Combined-Shape">
-                    <use fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: multiply;" xlink:href="#path-3"></use>
+                    <use style="mix-blend-mode: multiply;" xlink:href="#path-3"></use>
                     <use stroke="#FB9C24" stroke-width="1" xlink:href="#path-3"></use>
                 </g>
                 <polyline id="Line-8" stroke="#FB9C24" stroke-linecap="square" points="95 196 95 97.8695652 190 48"></polyline>
@@ -49,7 +49,7 @@
         <line x1="308.5" y1="1453.5" x2="697.5" y2="1657.5" id="Line-13" stroke="#C3C5D2" opacity="0.7" stroke-linecap="square"></line>
         <g id="blue_outline" opacity="0.3" transform="translate(674.000000, 1620.000000)">
             <g id="Combined-Shape-Copy-2">
-                <use fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: multiply;" xlink:href="#path-4"></use>
+                <use  style="mix-blend-mode: multiply;" xlink:href="#path-4"></use>
                 <use stroke="#3B65E6" stroke-width="1" xlink:href="#path-4"></use>
             </g>
             <polyline id="Line-8-Copy-2" stroke="#3B65E6" stroke-width="1" stroke-linecap="square" points="95 196 95 97.8695652 190 48"></polyline>
