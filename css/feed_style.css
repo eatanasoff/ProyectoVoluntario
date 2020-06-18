@@ -490,6 +490,7 @@ li a{
 	display: -webkit-box;
 	-webkit-line-clamp: 3; 
 	-webkit-box-orient: vertical;
+	min-height: 59px;
 }
 
 #descripcion_necesidad{
