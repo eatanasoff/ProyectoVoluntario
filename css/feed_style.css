@@ -151,6 +151,20 @@ label a, p a{
 	border: 0; 
 }
 
+
+.case_resolved {
+
+	padding: 15px 15px;
+	font-weight: 700;
+	font-size: 1.2em;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #6B7BDA;
+	min-width: 100px;
+	border: 0; 
+}
+
+
 /*buttons hover - a*/
 
 .button_principal:hover {
@@ -356,7 +370,7 @@ li a{
 .caso_feed{
 	width: 30%;
 	border-radius: 5px;
-	box-shadow: 10px 10px 20px #DEE0EB;
+	box-shadow: 10px 10px 20px #EAEBF7;
     margin: 10px 0 40px 25px;
     border: solid #F0F2FD 1px;
     background-color: #ffffff;
@@ -495,6 +509,36 @@ li a{
 
 #descripcion_necesidad{
 	font-weight: 600;
+}
+
+.one_row{
+	padding: 50px;
+    width: 80%;
+    margin: 100px auto;
+    border: solid 2px #F0F2FD;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+.one_row .main_right img{
+	width: 100%;
+	padding: initial;
+}
+
+.one_row .negocios_left p{
+	padding: initial;
+}
+
+.negocios_left{
+	width: 45%;
+    float: left;
+}
+
+
+.negocios_left img{
+	width: 100%;
+	padding-top: 60px;
+	
 }
 
 
@@ -657,6 +701,7 @@ nav {
     display: block;
 }
 
+
 .main_right{
 	display: none;
 }
@@ -788,6 +833,20 @@ nav {
 	padding-top: 0;
 	width: 100%;
 }
+
+
+
+.one_row{
+	width: 70%;
+}
+
+.negocios_left{
+	width: 100%;
+    float: initial;
+    display: block;
+}
+
+
 
 /*footer*/
 .footer {
