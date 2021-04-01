@@ -391,6 +391,18 @@ li a{
 	min-height: 500px;
 }  
 
+.case_resolved {
+
+	padding: 15px 15px;
+	font-weight: 700;
+	font-size: 1.2em;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #6B7BDA;
+	min-width: 100px;
+	border: 0; 
+}
+
 .caso_feed{
 	width: 30%;
 	border-radius: 5px;

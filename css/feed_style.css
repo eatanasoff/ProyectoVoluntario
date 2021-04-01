@@ -165,6 +165,18 @@ label a, p a{
 	border: 0; 
 }
 
+.case_closed {
+
+	padding: 15px 15px;
+	font-weight: 700;
+	font-size: 1.2em;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: gray;
+	min-width: 100px;
+	border: 0; 
+}
+
 
 /*buttons hover - a*/
 
